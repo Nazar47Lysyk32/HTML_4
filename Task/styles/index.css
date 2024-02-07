@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 118px;
+}
+
+header {
+	width: 100%;
+	height: 124px;
+	background: #FFF;
+	box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10);
+	margin-bottom: 46px;
+}
+
+.lines {
+	display: flex;
+	margin-bottom: 24px;
+}
+
+.lines__red {
+	width: 28%;
+	height: 8px;
+	flex-shrink: 0;
+	background: #E50050;
+}
+
+.lines__green {
+	width: 72%;
+	height: 8px;
+	flex-shrink: 0;
+	background: #4DAF8A;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__logo {
+	width: 180px;
+	height: 78px;
+}
+
+.header__content {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+}
+
+
+.header__content_row {
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+}
+
+.header__content_row_info {
+	display: flex;
+	width: 510px;
+}
+
+.header__content_row_info svg {
+	width: 32px;
+	height: 32px;
+}
+
+.header__content_row_info h1 {
+	color: #000;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 1px;
+	margin-left: 13px;
+}
+
+.header__content_row_info a {
+	color: #E50050;
+	font-family: Roboto;
+	font-size: 13px;
+	font-weight: 400;
+	margin-left: 12px;
+
+}
+
+.header__content_row_number {
+	display: flex;
+	margin-left: 20px;
+	gap: 12px;
+	width: 280px;
+}
+
+.header__content_row_number svg {
+	width: 32px;
+	height: 32px;
+}
+
+.header__content_row_number h1 {
+	color: #000;
+	font-family: Ubuntu;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.header__content_nav {
+	margin-top: 28px;
+}
+
+.header__content_nav ul {
+	display: flex;
+}
+
+.header__content_nav li {
+	list-style: none;
+	margin-left: 30px;
+}
+
+.header__content_nav a {
+	text-decoration: none;
+	color: #000;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.doctor {
+	display: flex;
+	gap: 54px;
+	margin-bottom: 72px;
+}
+
+.doctor>img {
+	max-width: 354px;
+	min-width: 354px;
+	max-height: 375px;
+	min-height: 375px;
+}
+
+.doctor__info {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.doctor__info_header {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	margin-bottom: 18px;
+}
+
+.doctor__info_header h2 {
+	color: #35C493;
+	font-family: Ubuntu;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.doctor__info_header h3 {
+	color: #000;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.doctor__info_line {
+	width: 100%;
+	height: 1px;
+	background: #D0D0D0;
+	margin-bottom: 18px;
+}
+
+.doctor__info_section {
+	width: 419px;
+	height: 53px;
+	border-radius: 8px;
+	background: #FFF;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.10);
+	display: flex;
+	gap: 14px;
+	align-items: center;
+	margin-bottom: 18px;
+
+}
+
+.doctor__info_section div {
+	padding: 10px;
+	border-radius: 8px;
+	background: #DDFFF3;
+}
+
+.doctor__info_section svg {
+	width: 32px;
+	height: 32px;
+}
+
+.doctor__info_section h3 {
+	color: #000;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.doctor__info_detail {
+	display: flex;
+	flex-direction: column;
+	gap: 22px;
+	margin-bottom: 28px;
+}
+
+.doctor__info_detail div {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+
+.doctor__info_detail p {
+	color: #000;
+	font-family: Ubuntu;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.doctor__info_detail span {
+	color: #000;
+	font-family: Ubuntu;
+	font-size: 16px;
+}
+
+.doctor__info_button {
+	color: #FFF;
+	font-feature-settings: 'cpsp' on;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 8px;
+	background: #E50050;
+	box-shadow: 0px 10px 22px 0px rgba(0, 0, 0, 0.15);
+
+	padding: 16px 36px;
+	width: fit-content;
+	text-decoration: none;
+}
+
+.sameDoctors {
+	margin-bottom: 136px;
+}
+
+.sameDoctors>h5 {
+	color: #000;
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 28px;
+	font-weight: 700;
+	margin-bottom: 44px;
+}
+
+.sameDoctors>div {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.sameDoctors__card {
+	width: 286px;
+	height: 350px;
+	border-radius: 12px;
+	background: #32C190;
+	box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.25);
+	margin-bottom: 20px;
+}
+
+.sameDoctors__card img {
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
+	margin-bottom: 16px;
+}
+
+.sameDoctors__card h5 {
+	color: #FFF;
+	font-family: Inter;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.sameDoctors__card h6 {
+	color: #FFF;
+	font-family: Inter;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+}
+
+footer {
+	background: #35C493;
+}
+
+.footerContainer {
+	margin: 0 100px;
+}
+
+.footer {
+	padding-top: 34px;
+	display: flex;
+	justify-content: space-between;
+	/* width: 100%; */
+}
+
+.footer__nav1,
+.footer__nav2 {
+	padding-top: 14px;
+	margin-bottom: 2px;
+}
+
+.footer__nav1 li,
+.footer__nav2 li {
+	list-style: none;
+	margin-bottom: 22px;
+	width: 190px;
+}
+
+.footer__nav1 a,
+.footer__nav2 a {
+	text-decoration: none;
+	color: #FFF;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.footer__socialMedia {
+	padding-top: 10px;
+}
+
+.footer__socialMedia>div {
+	display: flex;
+	gap: 10px;
+}
+
+.footer__socialMedia h6 {
+	color: #FFF;
+	font-family: Ubuntu;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.footer__socialMedia p {
+	color: #BFFADB;
+	font-family: Ubuntu;
+	font-size: 14px;
+	width: 180px;
+	margin-bottom: 14px;
+}
+
+.footer__line {
+	margin: 0 125px 30px 125px;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.30);
+}
+
+.footer__underline {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 34px;
+}
+
+.footer__underline p {
+	color: #FFF;
+	font-family: Ubuntu;
+	font-size: 14px;
+	width: 520px;
+}
+
+@media screen and (max-width: 1400px) {
+	.header__content_row {
+		width: 850px;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	.header__content_row {
+		width: 700px;
+	}
+
+	.header__content_row_info {
+		width: 400px;
+	}
+
+	.header__content_row_number {
+		width: 280px;
+	}
+
+	header {
+		height: 140px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.header__content_row {
+		width: 600px;
+	}
+
+	.header__content_row_info {
+		width: 300px;
+	}
+
+	.header__content_row_number {
+		width: 280px;
+	}
+
+	.doctor__info_button {
+		margin-bottom: 70px;
+	}
+
+	.container,
+	.footerContainer {
+		margin: 0 50px;
+	}
+}
+
+
+
+@media screen and (max-width: 992px) {
+	.container,
+	.footerContainer {
+		margin: 0 10px;
+	}
+
+	.sameDoctors>div {
+		margin: 0 80px;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.sameDoctors>div,
+	.container,
+	.footerContainer {
+		margin: 0;
+	}
+
+	.header__content_nav {
+		position: absolute;
+		right: 10px;
+		top: 120px;
+	}
+
+	.header__content_row {
+		flex-direction: column;
+		width: 300px;
+		gap: 10px;
+	}
+
+	header {
+		height: 180px;
+	}
+
+	.sameDoctors>div,
+	.footer,
+	.doctor__info,
+	.doctor {
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: nowrap;
+
+	}
+
+	.sameDoctors__card {
+		transform: scale(1.5);
+		margin-bottom: 200px;
+	}
+
+	.doctor>img {
+		transform: scale(1.5);
+		margin: 70px 0;
+	}
+
+	.footer__socialMedia>div {
+		justify-content: center;
+	}
+
+	.footer__socialMedia {
+		margin-bottom: 20px;
+	}
+}
